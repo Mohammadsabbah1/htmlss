@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<style>
+  #div1 {
+    font-family: Poppins;
+    position: relative;
+    left: 1190px;
+    top: 3px;
+
+  }
+
+
+
+  #div2 {}
+
+  #div3 {}
+
+  #img1 {
+    max-width: 100%;
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    left: 1000px;
+    top: 120px;
+
+
+  }
+  #a4{
+    border-color:#3BBADB ;
+  }
+
+  #h6 {
+    
+    color:#3BBADB ;
+    font-family: Poppins;
+    position: absolute;
+    left: 100px;
+    top: 120px;
+  }
+
+  #h1 {
+    color:#008AAA ;
+    font-family: Poppins;
+    position: absolute;
+    left: 100px;
+    top: 250px;
+    width: 450px;
+    height: 100px;
+  }
+  #more{
+    display: none;
+
+  }
+  #p1{
+    font-family: Poppins;
+    width: 700px;
+    height: 450px;
+    position: absolute;
+    left: 100px;
+    top: 370px;
+  }
+  #buttons{
+    position: absolute;
+    left: 100px;
+    top: 500px;
+    width: 450px;
+     height: 100px;
+    
+  }
+#a1{
+  color:#D1884F ;
+}
+  #web{
+    color:#D1884F ;
+    
+  }
+
+  @media screen and (max-width: 600px) {
+    #img1 {
+      
+     
+      width: 99%;
+      height: 470px;
+      position: absolute;
+      left: 7%;
+      top: 44%;
+
+
+    }
+
+    #div1 {
+     
+      font-family: Poppins;
+      position: absolute;
+      left:17%;
+      top: 1%;
+
+    }
+    #p1{
+      width: 100%;
+      height: 250px;
+      position: absolute;
+      left: 7%;
+      top: 125%;
+    }
+    #buttons{
+      
+      position: absolute;
+      left: 5%;
+      top: 155%;
+     
+
+    }
+    #h1 {
+      color:#008AAA ;
+      font-family: Poppins;
+      position: absolute;
+      left:5%;
+      top: 25%;
+      text-align: center;
+    }
+    #h6 {
+
+      color:#3BBADB ;
+      font-family: Poppins;
+      position: absolute;
+      left: 40% ;
+      top: 15%;
+    }
+  }
+</style>
+
+<body>
+  <div id="div1" class="navbar navbar-light  ">
+    <nav class="nav">
+      <img class="icon1" src="./ICONE/home (1).png" alt="">
+      &nbsp;
+      <a id="a1" href="#"> Home </a> &nbsp;
+      <img src="./ICONE/user.png" alt="">
+      &nbsp;
+      <a href="https://www.linkedin.com/in/mohammad-sabbah-b244b727a/"> About Me </a> &nbsp;
+      <img src="./ICONE/phone-call.png" alt="">
+      &nbsp;
+      <a href="0592423152"> Call Me </a> &nbsp;
+      </nav>
+  </div>
+  <div id="div2">
+    <h6 id="h6">Welcome My Site</h6>
+  </div>
+  <div id="div3">
+    <h1 id="h1">Hi,I'm Mohammad Sabbah,a <span id="web"> Web Devloper</span> </h1>
+
+    <img id="img1" src="./ICONE/269138582_4715997625125462_5344355366582402010_n (1).jpg">
+  </div>
+  <div>
+    <p id="p1">
+      as a web developer with a passion for creating dynamic and visually appealing websites and web applications.<button class="btn btn-link" id ="b1" onclick="myFunction()">seeMore</button> <span id="more" > a strong background in HTML, CSS, JavaScript,c#,php, and other relevant programming languages, I possess the technical expertise necessary to bring innovative web solutions to life</span>
+
+    </p>
+  </div>
+  <div id="buttons">
+<a class="btn btn-info" href="https://www.linkedin.com/in/mohammad-sabbah-b244b727a/" >Hire Me</a>&nbsp;&nbsp;
+<a class="btn btn-defult" id="a4" href="https://github.com/Mohammadsabbah1/Movie_library_asb.net6">See My Project</a>
+ </div>
+  
+</body>
+  <script>
+  function myFunction() {
+      document.getElementById("more").style.display = "flex";
+    document.getElementById("b1").style.display = "none";
+  }
+  </script>
+</html>
